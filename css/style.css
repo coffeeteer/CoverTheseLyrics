@@ -1,0 +1,19 @@
+/* Top Header */
+.jumbotron {
+	text-align: center;
+	background-color: #2d2d2d;
+	color: #fff;
+	font-family: 'georgia', serif;
+}
+
+#headerFont {
+	font-size: 100pt;
+	line-height-bottom: 50px;
+	letter-spacing: 5px;
+}
+
+#header2Font {
+	font-size: 40pt;
+	line-height: 50px;
+	letter-spacing: 1px;
+}
