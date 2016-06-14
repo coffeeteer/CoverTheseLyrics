@@ -1,9 +1,18 @@
+/* Background Image */
+#main-container {
+	background-image: url('assets/images/background.png') blue;
+/*	background-image: url("http://www.planwallpaper.com/static/images/518079-background-hd.jpg");
+*/	
+}
+
 /* Top Header */
 .jumbotron {
 	text-align: center;
 	background-color: #2d2d2d;
 	color: #fff;
 	font-family: 'georgia', serif;
+	/*height: 450px;
+	width: 1200px;*/
 }
 
 #headerFont {
@@ -18,14 +27,24 @@
 	letter-spacing: 1px;
 }
 
-.container-fluid {
-	background-image: url('assets/images/background.png') blue;
-/*	background-image: url("http://www.planwallpaper.com/static/images/518079-background-hd.jpg");
-*/	
-}
-
 .caroTxt {
 	color: #fff;
 	z-index: 3;
 	text-shadow: 2px 2px 2px black;
+	position: relative;
+}
+
+#myCarousel {
+	/*height: 450px;
+	width: 1200px;
+	margin: 0 auto;*/
+}
+
+.caroImg {
+	/*max-height: 100%;*/
+	/*width: 125%;*/
+	position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
 }
